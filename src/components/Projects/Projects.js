@@ -25,10 +25,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Wyzant - Find a tutor"
+              description="The Wyzant App makes it easy for parents and students to instantly connect with expert tutors for in-person and online lessons. As the world’s leading tutoring network, we help more students in more places than anyone else. We’re dedicated to helping everyone achieve their personal and academic goals and provide a yearly college scholarship contest through our website."
+              demoLink="https://apps.apple.com/us/app/wyzant-find-tutors-for-homework/id1042081370"
+              store="Apple"
             />
           </Col>
 
@@ -36,10 +36,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Innclude - Event managment"
+              description="Include is an event platform where you can create private events between you and users in your phone directory. You can also create events that the entire city can see and you can interact with other users."
+              demoLink="https://apps.apple.com/tr/app/innclude/id1460835077?l=tr&platform=iphone"
+              store="Apple"
             />
           </Col>
 
@@ -49,8 +49,8 @@ function Projects() {
               isBlog={false}
               title="Editor.io"
               description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              demoLink=""
+              store="Google"
             />
           </Col>
 
@@ -58,10 +58,10 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="CodeMode"
+              description="It is an online platform for students to take the tests and teachers to create those tests - all examinations covered. CodeMode provides students insight into their preparation and performance using advance data analysis. Students can see their strength and weakness by subject and topics, compare themselves at national and international level, understand their improvement over a period of time, find test taking pattern, access wide variety of practice tests and get a clear picture on speed as well as accuracy. The more you practice, more you will know about yourself and better you will become - that is a how CodeMode helps you."
+              demoLink="https://play.google.com/store/apps/details?id=com.perfectice"
+              store="Google"
             />
           </Col>
 
@@ -69,10 +69,10 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Almedad Annateq المداد الناطق"
+              description="Mushaf Almedad Annateq has new idea for reading arabic that using the color coding system."
+              demoLink="https://apps.apple.com/us/app/almedad-annateq-%D8%A7%D9%84%D9%85%D8%AF%D8%A7%D8%AF-%D8%A7%D9%84%D9%86%D8%A7%D8%B7%D9%82/id1644702380"
+              store="Apple"
             />
           </Col>
 
@@ -80,11 +80,10 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="FAME - Connect Online"
+              description="We are connecting people. Someone a Girlfriend or just a friend or a contact inside the bank world, or an investor. People share their interest with others and connect. You make a profile. Write your information and when you login you can choose between private/business. If you chose private you enter the groups where other people are. this is speed meeting. 60 seconds you talk with 5 others. After 60 seconds you get a popup. Where it stands. Do you wanna connect with this person. Yes/no"
+              demoLink="https://apps.apple.com/app/1606940095"
+              store="Apple"
             />
           </Col>
         </Row>
