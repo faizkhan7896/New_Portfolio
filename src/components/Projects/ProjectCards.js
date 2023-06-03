@@ -37,7 +37,7 @@ function ProjectCards(props) {
             target="_blank"
             style={{ }}
           >
-            {props.store == "Google" ? <BsGooglePlay /> : <BsApple />}&nbsp;
+            {props.store === "Google" ? <BsGooglePlay /> : <BsApple />}&nbsp;
             {"See"}
           </Button>
         )}
