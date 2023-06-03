@@ -1,20 +1,10 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
 import {
-  CgSoftwareDownload,
-  CgSoftwareUpload,
-  CgWebsite,
-} from "react-icons/cg";
-import {
-  BsApp,
   BsApple,
   BsGithub,
-  BsGooglePlay,
-  BsLink,
-  BsLink45Deg,
-  BsMenuApp,
-  BsProjector,
+  BsGooglePlay
 } from "react-icons/bs";
 
 function ProjectCards(props) {

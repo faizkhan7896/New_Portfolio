@@ -1,16 +1,15 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  SiVisualstudiocode,
+  SiAndroidstudio,
+  SiCanva,
+  SiJira,
+  SiMacos,
   SiPostman,
   SiSlack,
   SiVercel,
-  SiMacos,
-  SiXcode,
-  SiAndroidstudio,
-  SiJira,
-  SiJirasoftware,
-  SiCanva,
+  SiVisualstudiocode,
+  SiXcode
 } from "react-icons/si";
 
 function Toolstack() {
