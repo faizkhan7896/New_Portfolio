@@ -2,12 +2,15 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+
+import leaf from "../../Assets/Projects/codemode.png";
+import emotion from "../../Assets/Projects/speedMeeting.png";
+import editor from "../../Assets/Projects/manerasanu.png";
+import chatify from "../../Assets/Projects/wyzant.png";
+import suicide from "../../Assets/Projects/Arabic.png";
+import bitsOfCode from "../../Assets/Projects/include.png";
+import Synchrony from "../../Assets/Projects/synchrony.png";
+import allfit from "../../Assets/Projects/allfit.png";
 
 function Projects() {
   return (
@@ -43,23 +46,13 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              demoLink=""
-              store="Google"
-            />
-          </Col>
-
+        
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
               title="CodeMode"
-              description="It is an online platform for students to take the tests and teachers to create those tests - all examinations covered. CodeMode provides students insight into their preparation and performance using advance data analysis. Students can see their strength and weakness by subject and topics, compare themselves at national and international level, understand their improvement over a period of time, find test taking pattern, access wide variety of practice tests and get a clear picture on speed as well as accuracy. The more you practice, more you will know about yourself and better you will become - that is a how CodeMode helps you."
+              description="It is an online platform for students to take the tests and teachers to create those tests - all examinations covered. CodeMode provides students insight into their preparation and performance using advance data analysis. Students can see their strength and weakness by subject and topics, compare themselves at national and international level, understand their improvement over a period of time, find test taking pattern,."
               demoLink="https://play.google.com/store/apps/details?id=com.perfectice"
               store="Google"
             />
@@ -86,6 +79,40 @@ function Projects() {
               store="Apple"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={editor}
+              isBlog={false}
+              title="Manere Sanus"
+              description="We offer a health concept for 0-112 years and make sure that you are supported and challenged correctly, qualitatively, according to the latest sports science findings, no matter what state of health you are in at the moment. We are a recognized and certified service provider for rehabilitation sports according to §44 SGB. In addition to rehab sports, you can do something preventive for your health with us and try out and practice our range of popular sports."
+              demoLink="https://play.google.com/store/apps/details?id=com.manere.sanus"
+              store="Google"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Synchrony}
+              isBlog={false}
+              title="Synchrony App"
+              description="Plataforma online para coordinar tres grupos de personas: médico, biólogo y paciente en un proceso de reproducción asistida. El paciente estará conectado a través de una app desde su móvil que le avisará de cuando tiene que tomar la medicación. El médico y el biólogo tendrán acceso a la plataforma web donde introducirán los datos médicos de la pacientes."
+              demoLink="https://play.google.com/store/apps/details?id=com.synchrony.android.app"
+              store="Google"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={allfit}
+              isBlog={false}
+              title="All fit - Fitness App"
+              description="With the AllFit (FitOL) application, you will now save time and have the chance to exercise in the nearest Fitness Halls. Using the map of the mobile application, you will be able to narrow down the fitness salons in each region of the city and take advantage of the services offered by those salons. By downloading the application, registering and reading the QR code shown to you at the entrance of the desired salon, you will enter and start your time."
+              demoLink="https://play.google.com/store/apps/details?id=com.all_fit"
+              store="Google"
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
