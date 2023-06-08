@@ -8,10 +8,11 @@ function Type() {
         strings: [
           "Software Developer",
           "React Native Developer",
-          "Cross Platform App Developer",
+          "Cross Platforn App Developer",
         ],
         autoStart: true,
         loop: true,
+        // loop: true,
         deleteSpeed: 50,
       }}
     />
