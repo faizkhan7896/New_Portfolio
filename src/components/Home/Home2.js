@@ -1,13 +1,14 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
-import Tilt from "react-parallax-tilt";
+import { Col, Container, Row } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
+  AiOutlineTwitter,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { SiStackoverflow } from "react-icons/si";
+import Tilt from "react-parallax-tilt";
+import myImg from "../../Assets/avatar.svg";
 
 function Home2() {
   return (
@@ -36,7 +37,7 @@ function Home2() {
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">React Native</b> and
+              with <b className="purple">Javascript</b> and
               <i>
                 <b className="purple">
                   {" "}
@@ -45,7 +46,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React Native</b>
               </i>
             </p>
           </Col>
@@ -90,6 +91,26 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
+                </a>
+              </li>
+              {/* <li className="social-icons">
+                <a
+                  href="https://www.fiverr.com/alfaiz_khan1?source=gig_page"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <SiFiverr />
+                </a>
+              </li> */}
+              <li className="social-icons">
+                <a
+                  href="https://stackoverflow.com/users/14186237/alfaiz-khan/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <SiStackoverflow />
                 </a>
               </li>
               <li className="social-icons">

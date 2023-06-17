@@ -3,13 +3,15 @@ import { Col, Row } from "react-bootstrap";
 import {
   SiAndroidstudio,
   SiCanva,
+  SiFigma,
   SiJira,
   SiMacos,
   SiPostman,
   SiSlack,
+  SiStackoverflow,
   SiVercel,
   SiVisualstudiocode,
-  SiXcode
+  SiXcode,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -41,6 +43,14 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiCanva />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFigma />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiStackoverflow />
       </Col>
     </Row>
   );

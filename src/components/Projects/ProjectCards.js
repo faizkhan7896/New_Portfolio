@@ -1,11 +1,7 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import {
-  BsApple,
-  BsGithub,
-  BsGooglePlay
-} from "react-icons/bs";
+import { BsApple, BsGithub, BsGooglePlay } from "react-icons/bs";
 
 function ProjectCards(props) {
   return (
@@ -13,7 +9,7 @@ function ProjectCards(props) {
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
         <Card.Title className="purple">
-        <strong className="purple">{props.title}</strong>
+          <strong className="purple">{props.title}</strong>
         </Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
@@ -35,7 +31,7 @@ function ProjectCards(props) {
             variant="primary"
             href={props.demoLink}
             target="_blank"
-            style={{ }}
+            style={{}}
           >
             {props.store === "Google" ? <BsGooglePlay /> : <BsApple />}&nbsp;
             {"See"}

@@ -9,12 +9,17 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Alfaiz Khan </span>
-            from <span className="purple"> Indore, India.</span>
-            <br />I am a final year student pursuing an Integrated BCA in
-            Maths.
+            from <span className="purple"> India.</span>
+            <br />I have completed my graduation in
+            <span className="purple">
+              {" "}
+              BCA (Bachelor of Computer Applications){" "}
+            </span>
+            from Makhanlal Chaturvedi National University of Journalism and
+            Communication, Bhopal
             <br />
             Additionally, I am currently employed as a software developer at
-            Technorizen.
+            <span className="purple"> Technorizen Software Solutions </span>
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

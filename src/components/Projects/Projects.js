@@ -5,6 +5,7 @@ import Particle from "../Particle";
 
 import leaf from "../../Assets/Projects/codemode.png";
 import emotion from "../../Assets/Projects/speedMeeting.png";
+import ShhParty from "../../Assets/Projects/ShhParty.png";
 import editor from "../../Assets/Projects/manerasanu.png";
 import chatify from "../../Assets/Projects/wyzant.png";
 import suicide from "../../Assets/Projects/Arabic.png";
@@ -80,6 +81,17 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ShhParty}
+              isBlog={false}
+              title="ShhParty App"
+              description="ShhParty App is a novel web and mobile platform that not only recreates a Silent Party virtually, but allows DJs to share their creative music, grow an audience and make an income (selling tickets and collecting tips). ShhPartyers (app users), can attend the ShhParty right from their mobile device and dance/sing along in the safety and comfort of their homes or in person at the ShhParty venue."
+              demoLink="https://play.google.com/store/apps/details?id=com.shhparty&hl=en_US&gl=US"
+              store="Google"
+            />
+          </Col>
+         
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
