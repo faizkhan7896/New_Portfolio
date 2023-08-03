@@ -12,6 +12,8 @@ import suicide from "../../Assets/Projects/Arabic.png";
 import bitsOfCode from "../../Assets/Projects/include.png";
 import Synchrony from "../../Assets/Projects/synchrony.png";
 import allfit from "../../Assets/Projects/allfit.png";
+import user from "../../Assets/Projects/user.png";
+import driver from "../../Assets/Projects/driver.png";
 
 function Projects() {
   return (
@@ -47,7 +49,6 @@ function Projects() {
             />
           </Col>
 
-        
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
@@ -91,7 +92,7 @@ function Projects() {
               store="Google"
             />
           </Col>
-         
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
@@ -124,7 +125,27 @@ function Projects() {
               store="Google"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={user}
+              isBlog={false}
+              title="3T- Request a ride"
+              description="Experience the unbeatable combination of affordability and passenger safety with 3T, the leading taxi app that revolutionizes your transportation experience. As the only company that provides comprehensive insurance for passengers during their trip, 3T ensures your peace of mind while offering the most competitive prices in the market."
+              demoLink="https://play.google.com/store/apps/details?id=com.taxi_user"
+              store="Google"
+            />
+          </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={driver}
+              isBlog={false}
+              title="3T Driver"
+              description="Join the 3T Driver community and experience a new level of earning potential and driver support. As a valued driver on our platform, we prioritize your success by offering an excellent work environment, continuous communication, and ensuring the highest percentage of income goes directly to you."
+              demoLink="https://play.google.com/store/apps/details?id=com.RN_3T_Driver"
+              store="Google"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
