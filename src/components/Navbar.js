@@ -13,7 +13,6 @@ import { CgGitFork } from "react-icons/cg";
 import { Link } from "react-router-dom";
 import logo from "../Assets/logo.png";
 
-import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
